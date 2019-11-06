@@ -40,19 +40,36 @@ h2 {
 .experience1 {
   text-align: left;
 }
+.experience1 > h2 {
+  padding-left: 30px;
+}
 
 .experience2{
   text-align: right;
 }
 
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
+.experience2 > h2 {
+  padding-right: 30px;
 }
 
 .list-inline {
   list-style: none;
   padding-left: 0px;
+  display: inline-block;
+  color :black;
+  font-size: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: #0097CE;
+}
+
+.fab {
+   color: #0097CE;
+   font-size: 50px;
+   opacity: 0.8;
 }
 
 @media (max-width: 960px) {
