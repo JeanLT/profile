@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,700|Passion+One:900&display=swap");
+
+body {
+  background-color: #ffab03;
+  font-family: Open Sans;
+  color : #ffff;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: oswald;
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.card{
+  text-align: center;
+  background: #ffab03;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 15px;
+}
+
+#profil_pic{
+  border-radius: 150px;
+  border: 3px solid #0097CE;
+}
+
+.experience1 {
+  text-align: left;
+}
+
+.experience2{
+  text-align: right;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
